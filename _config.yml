@@ -8,7 +8,10 @@ subtitle: ''
 description: ''
 keywords:
 author: natureskybase
-language: en
+language: 
+  - zh-CN
+  - en
+  - zh-TW
 timezone: ''
 
 # URL
@@ -39,9 +42,9 @@ external_link:
   field: site # Apply to the whole site
   exclude: ''
 filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
+render_drafts: true
+post_asset_folder: true
+relative_link: true
 future: true
 syntax_highlighter: highlight.js
 highlight:
@@ -54,6 +57,9 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+marked:
+  prependRoot: true
+  postAsset: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -93,10 +99,7 @@ include:
 exclude:
 ignore:
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: landscape
+theme: volantis
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
