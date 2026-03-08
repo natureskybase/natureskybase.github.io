@@ -27,4 +27,4 @@ hexo clean && hexo generate && hexo server
 浏览器访问 `http://localhost:4000` 预览效果。
 
 ### 4. 部署到 GitHub Pages
-推送项目将自动启动github page工作流进行部署，使用https://natureskybase.github.io/登陆网页。
+推送项目将自动启动github page工作流进行部署，点击 https://natureskybase.github.io/ 登陆网页。
