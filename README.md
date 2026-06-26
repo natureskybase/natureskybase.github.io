@@ -5,8 +5,7 @@
 ### 1. 克隆仓库
 
 ```bash
-git --recursive clone https://github.com/natureskybase/natureskybase.github.io.git
-&& cd natureskybase.github.io
+git --recursive clone https://github.com/natureskybase/natureskybase.github.io.git && cd natureskybase.github.io
 ```
 
 ### 2. 安装依赖
@@ -14,8 +13,7 @@ git --recursive clone https://github.com/natureskybase/natureskybase.github.io.g
 需要提前安装 [Node.js](https://nodejs.org/) 和 Hexo CLI：
 
 ```bash
-npm install -g hexo-cli
-&& npm install
+npm install -g hexo-cli && npm install
 ```
 
 ### 3. 本地测试
