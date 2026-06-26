@@ -5,8 +5,8 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/natureskybase/natureskybase.github.io.git
-cd natureskybase.github.io
+git --recursive clone https://github.com/natureskybase/natureskybase.github.io.git
+&& cd natureskybase.github.io
 ```
 
 ### 2. 安装依赖
@@ -15,7 +15,7 @@ cd natureskybase.github.io
 
 ```bash
 npm install -g hexo-cli
-npm install
+&& npm install
 ```
 
 ### 3. 本地测试
